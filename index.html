@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brian Kiprop - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="body-container">
+        <nav>
+            <div class="logo">BTech</div>
+            <ul class="nav-links">
+                <li><a href="#home" id="home-tab" class="tab-link active" onclick="showContent('home')">Home</a></li>
+                <li><a href="#about" id="about-tab" class="tab-link" onclick="showContent('about')">About</a></li>
+                <li><a href="#skills" id="skills-tab" class="tab-link" onclick="showContent('skills')">Skills</a></li>
+                <li><a href="#projects" id="projects-tab" class="tab-link" onclick="showContent('projects')">Projects</a></li>
+                <li><a href="#resume" id="resume-tab" class="tab-link" onclick="showContent('resume')">Resume</a></li>
+                <li><a href="#contact" id="contact-tab" class="tab-link" onclick="showContent('contact')">Contact</a></li>                
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+
+        <div id="home" class="content-section">
+            <div class="hero">
+                <img src="images/image1.png" alt="Brian Kiprop">
+                <h1> <span>I'm </span>Brian Kiprop</h1>
+                <p>Full-Stack Web Developer</p>
+                <p>A dedicated full-stack web developer with extensive experience in building dynamic and responsive websites and applications. Adept at problem-solving and continually improving skills through online courses and projects.
+                    .</p>
+                <div class="cta-buttons">
+                    <a href="#projects" onclick="showContent('projects')">View My Work</a>
+                    <a href="#contact" onclick="showContent('contact')">Get In Touch</a>
+                    <a href="assets/CV/brian kiprop_CV.pdf" download="brian kiprop_CV.pdf" class="download-cv">Download CV</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="about" class="content-section">
+            <!-- About content here -->
+            <div class="about-me">
+                <div class="about-image">
+                    <img src="images/image2.png" alt="About Brian">
+                </div>
+                <div class="about-info">
+                    <h1 class="about">About Me</h1>
+                    <p>I'm a dedicated full-stack web developer with a strong background in both front-end and back-end technologies. My journey in web development began during my university years, and since then, I have been honing my skills and expanding my knowledge in various programming languages and frameworks.</p>
+                    
+                    <h2><span>Biography</span></h2>
+                    <p>With a Bachelor's Degree in Computer Science from KIBABII UNIVERSITY, I have gained a solid foundation in computer science principles. I have also completed numerous online courses and certifications to keep up with the latest trends and technologies in web development.</p>
+                    
+                    <h2><span>Education</span></h2>
+                    <ul>
+                        <li><strong>Bachelor's Degree in Computer Science</strong> - KIBABII UNIVERSITY, Class of 2026</li>
+                        <li><strong>Certifications:</strong> Various online courses in web development, including JavaScript, React, and Node.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="content-section">
+            <!-- Skills content here -->
+            <h1>My Skills</h1>
+            <h2><span>Technical Skills</span></h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> JavaScript, Python, Java</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React, Angular, Django</li>
+                <li><strong>Database Management:</strong> MySQL, MongoDB</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>DevOps:</strong> Docker, Jenkins</li>
+            </ul>
+            <h2><span>Soft Skills</span></h2>
+            <ul>
+                <li>Effective Communication</li>
+                <li>Team Collaboration</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+            <h2><span>Tools and Technologies</span></h2>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>PyCharm</li>
+                <li>Webpack</li>
+                <li>Postman</li>
+                <li>Figma</li>
+            </ul>
+        </div>
+        
+        <div id="projects" class="content-section">
+            <!-- Projects content here -->
+            <h1>My Projects</h1>
+            <div class="project">
+                <h2>to-do lists</h2>
+                <p>A dynamic web application for managing tasks and to-do lists, built with React and Node.js. It includes features such as user authentication, real-time updates, and a responsive design.</p>
+                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>e-commerce platform</h2>
+                <p>An e-commerce platform developed using Django and React. It supports user accounts, product management, shopping cart functionality, and secure payments.</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>personal portfolio website</h2>
+                <p>A personal portfolio website showcasing my work and skills. Built with HTML, CSS, and JavaScript, it features a responsive design and smooth animations.</p>
+                <a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <div id="resume" class="content-section ress">
+            <!-- Resume content here -->
+             <h1>summary</h1>
+             <p>Experienced Web Developer with four years of experience in designing and developing user interfaces, testing, debugging, and training staff within eCommerce technologies. Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies.</p>
+
+            <h1>Skills</h1>
+            <ul>
+                <li>
+                    <li><strong>Languages:  </strong>HTML, CSS, JavaScript, Python, Java, SQL</li>
+                    <li><strong>Frameworks/Libraries:  </strong>Bootstrap, React, Django, Flask</li>
+                    <li><strong>Databases:  </strong> MySQL,MongoDB</li>
+                    <li><strong>Back-End:  </strong>Node.js, Python (Django, Flask)</li>
+                    <li><strong>Tools:  </strong>Git, Visual Studio Code, Webpack, Pycham</li>
+                    <li><strong>Other:  </strong>Responsive Design, RESTful APIs, UI/UX DesignL</li>
+                </li>
+            </ul>
+
+            <h1>Professional Experience</h1>
+            <ul>
+                <li><strong>Full-Stack Developer</strong> - ABC Corp, June 2022 - Present
+                    <ul>
+                        <li>Developed and maintained web applications using React, Node.js, and MongoDB.</li>
+                        <li>Collaborated with designers and other developers to create user-friendly interfaces.</li>
+                        <li>Implemented RESTful APIs and managed databases to ensure data integrity.</li>
+                        <li>Participated in code reviews and continuous integration/continuous deployment (CI/CD) processes.</li>
+                    </ul>
+                </li>
+                <li><strong>Web Developer Intern</strong> - XYZ Inc, January 2021 - May 2022
+                    <ul>
+                        <li>Assisted in developing e-commerce websites using HTML, CSS, JavaScript, and Django.</li>
+                        <li>Participated in code reviews and contributed to team meetings.</li>
+                        <li>Gained experience in using version control systems like Git.</li>
+                        <li>Worked on bug fixes and feature enhancements based on user feedback.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h1>Education</h1>
+            <p>
+                <h4>Bachelor of Science in Computer Science</h4><br>
+                <strong>KIBABII UNIVERSITY</strong>, Bungoma, Kenya <br>
+                since 2022 - present
+            </p>
+
+            <h1>My Projects</h1>
+            <div class="project">
+                <h2>To do List</h2>
+                <p>A dynamic web application for managing tasks and to-do lists, built with React and Node.js. It includes features such as user authentication, real-time updates, and a responsive design.</p>
+                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>e-commerce platform</h2>
+                <p>An e-commerce platform developed using Django and React. It supports user accounts, product management, shopping cart functionality, and secure payments.</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h2>personal portfolio website</h2>
+                <p>A personal portfolio website showcasing my work and skills. Built with HTML, CSS, and JavaScript, it features a responsive design and smooth animations.</p>
+                <a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
+            </div>
+            <h1>Aditional Information</h1>
+            <p><strong>Languages:  </strong>Fluent in English, Proficient in English</p>
+            <p><strong>Volunteer Work:  </strong></p>
+        </div>
+        </div>
+
+        <div id="contact" class="content-section">
+            <!-- Contact content here -->
+            <h1>Contact Me:</h1>
+            <form action="mailto:briankipropkipchoge@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-details">
+                <h2>Additional Contact Information</h2>
+                <p><strong>Email:</strong> briankipropkipchoge@gmail.com</p>
+                <p><strong>Phone:</strong> +254797229351<br>+254713373218</p>
+                <p><strong>Address:</strong> 123 Street, Nairobi, Kenya</p>
+            </div>
+        </div>
+    
+
+    <footer>
+        <h1>Follow Me</h1>
+        <div class="social-media">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/+254797229351" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/kipchogebriankiprop/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/briankipch79420" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/brian-kipchoge-a74126318/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>© 2024 Brian Kiprop. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showContent(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => section.style.display = 'none');
+
+            // Show the selected section
+            const activeSection = document.getElementById(sectionId);
+            if (activeSection) {
+                activeSection.style.display = 'block';
+            }
+
+            // Remove active class from all tab links
+            const tabLinks = document.querySelectorAll('.tab-link');
+            tabLinks.forEach(link => link.classList.remove('active'));
+
+            // Add active class to the clicked tab link
+            const activeLink = document.getElementById(sectionId + '-tab');
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+
+            // Hide the menu on smaller screens after clicking a link
+            const navLinks = document.querySelector('.nav-links');
+            if (window.innerWidth < 768) {
+                navLinks.classList.remove('show');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize by showing the "Home" content
+            showContent('home');
+
+            // Add event listener to the menu toggle button
+            const menuToggle = document.querySelector('.menu-toggle');
+            menuToggle.addEventListener('click', function() {
+                const navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
